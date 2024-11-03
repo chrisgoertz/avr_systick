@@ -1,10 +1,15 @@
 /*
- * systick.c
+ * systick.h
  *
- * Created: 06.10.2024 00:06:47
+ * Created: 06.10.2024 00:06:30
  *  Author: chris
+ *                    GNU GENERAL PUBLIC LICENSE
+ *                       Version 3, 29 June 2007
+ *
+ * Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ * Everyone is permitted to copy and distribute verbatim copies
+ * of this license document, but changing it is not allowed.
  */ 
-
 #include "systick.h"
 #include <stdint.h>
 #include <avr/interrupt.h>
