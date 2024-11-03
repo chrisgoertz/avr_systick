@@ -37,7 +37,7 @@
 #endif
 #define SYSTICK_PRESCALER PRESCALER_8
 
-static uint32_t _ticks = 0;
+static volatile uint32_t _ticks = 0;
 
 #ifdef SYSTICK_TIMER1
 ISR(TIMER1_COMPA_vect)
