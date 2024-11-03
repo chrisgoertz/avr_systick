@@ -10,7 +10,7 @@
 #include <stdint.h>
 
 #ifndef F_CPU
-#define F_CPU 14745600UL
+#define F_CPU 20000000UL
 #endif
 
 void systick_init();
