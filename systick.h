@@ -1,5 +1,6 @@
 /*
  * systick.h
+ * Only tested with ATmega1284p yet...
  *
  * Created: 06.10.2024 00:06:30
  *  Author: chris
@@ -23,6 +24,9 @@
 #define F_CPU 20000000UL
 #endif
 
+#ifndef __AVR_ATmega1284P__
+#define __AVR_ATmega1284P__
+#endif
 /** Initialize and start the systick generation */
 void systick_init();
 /** (Re)Start the systick generation */
